@@ -66,8 +66,8 @@ def test_exchange_has_worst_sla_performance(df):
     """
     A genuine, checkable finding matching the generator's design:
     Exchange-Umfeld has the highest SLA breach rate of the four
-    categories -- exactly the kind of "Verbesserungspotenzial" the
-    posting asks to surface via BI reporting.
+    categories -- exactly the kind of "Verbesserungspotenzial" BI
+    reporting is meant to surface.
     """
     result = sla_performance_by_category(df)
     assert result.index[0] == "Exchange-Umfeld"

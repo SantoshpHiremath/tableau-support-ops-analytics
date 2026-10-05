@@ -1,12 +1,9 @@
 """
 Synthetic IT support-ticket data generator.
 
-Disclosure: no real IT-support-ticket dataset was reachable in this
-environment (kaggle.com and data.world both failed to connect when
-checked directly). This generates realistic, structured synthetic
-ticket data modeled on the exact ticket categories named in the DATEV
-"Technical Support Standard-Request" posting -- printer/scanner
-requests, user administration, internal remote support, and the
+The data is synthetic. This generates realistic, structured ticket data
+modeled on typical technical-support standard-request categories --
+printer/scanner requests, user administration, internal remote support, and the
 Exchange environment -- with deliberately realistic operational
 patterns (varying resolution times by category, a backlog effect,
 weekday seasonality, a subset of tickets that breach SLA) rather than

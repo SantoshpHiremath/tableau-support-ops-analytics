@@ -1,8 +1,8 @@
 """
 Support-operations analytics functions: SLA performance, category
 volume/load, automation-candidate identification, and team workload
-distribution -- the exact "BI-Auswertungen" / "Verbesserungspotenziale
-in unseren Prozessen sichtbar machen" ask from the posting.
+distribution -- BI reporting that makes process improvement potential
+("Verbesserungspotenziale") visible.
 """
 
 import pandas as pd
@@ -56,9 +56,8 @@ def workload_by_assignee(df):
 
 def automation_opportunity_summary(df):
     """
-    Quantify the automation opportunity the posting explicitly asks
-    about ("Automatisierung wiederkehrender Arbeitsschritte mit Power
-    Automate"): how many tickets per category are flagged as
+    Quantify the automation opportunity (automating recurring work steps
+    with Power Automate): how many tickets per category are flagged as
     automation candidates, and what fraction of that category's total
     volume that represents.
     """

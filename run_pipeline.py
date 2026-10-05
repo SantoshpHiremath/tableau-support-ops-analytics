@@ -53,7 +53,7 @@ def main():
     print(verification)
 
     print("\n" + "=" * 70)
-    print("Note: data/support_tickets.csv is synthetic (disclosed in README).")
+    print("Note: data/support_tickets.csv is synthetic (see README).")
     print("output/support_tickets.hyper is a genuine Tableau extract file,")
     print("built with Tableau's own tableauhyperapi and independently")
     print("re-verified via real SQL against a fresh connection.")
